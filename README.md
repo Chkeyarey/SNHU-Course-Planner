@@ -11,7 +11,7 @@ I approached this problem by first evaluating three core data structures: Vector
 One significant roadblock I encountered was a file-loading error where the program failed to read filenames containing spaces (like CS 300 ABCU_Advising_Program_Input.csv). Initially, my code used the *cin >> operator*, which stops at the first space. I overcame this by switching to getline(cin, fileName) and utilizing cin.ignore() to clear the input buffer.
 
 ### Expanding My Design Philosophy
-Working on this project has fundamentally changed how I design software. I no longer just "jump into the code." I now prioritize the Design and Analysis phase—using pseudocode and Big O analysis to predict how a program will behave before a single line of C++ is written. This ensures that the architecture is efficient by design rather than by accident.
+Working on this project has fundamentally changed how I design software. I now prioritize the Design and Analysis phase—using pseudocode and Big O analysis to predict how a program will behave before a single line of C++ is written. This ensures that the architecture is efficient by design rather than by accident.
 
 ### Maintainability and Readability
 This project evolved my coding style toward industry-standard best practices. I focused on making the program maintainable and readable by:
